@@ -45,6 +45,7 @@ class Сurrencies:
         else:
             print("Error response!\nCode error: ", status)
 
+
 # c = Сurrencies()
 # pairs = c.parser_currencies()
 # print(pairs)
