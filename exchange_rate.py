@@ -12,7 +12,7 @@ class Сurrencies:
         """
         Getting html code https://www.cbr.ru/currency_base/daily/
         """
-        return requests.get("https://www.cbr.ru/currency_base/daily/")
+        return requests.get(self.url)
 
     def get_content(self) -> list[float]:
         """
